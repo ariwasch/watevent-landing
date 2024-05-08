@@ -25,6 +25,23 @@ body {
     border-radius: 6px;
        
 } */
+.continue-btn {
+    background-color: white; /* White background like Product Hunt */
+    color: #4A90E2; /* Blue text to keep it consistent with Watevent's theme */
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #4A90E2; /* Blue border to match Watevent's color scheme */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block; /* Ensures the button maintains a button-like appearance */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.continue-btn:hover {
+    background-color: #4A90E2; /* Switch to blue background on hover */
+    color: white; /* White text on hover */
+}
 
 .column.previews {
     flex-direction: row;
