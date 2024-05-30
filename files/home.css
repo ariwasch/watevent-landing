@@ -8,7 +8,7 @@ body {
 .column {
     white-space: normal;
     width: 100%;
-    padding: 30px;
+    padding: 85px;
     display: flex;
     vertical-align: top;
     justify-content: center;
@@ -50,7 +50,7 @@ body {
 }
 .column.previews .preview {
     height: 500px;
-    max-width: 250px;
+    max-width: 260px;
     margin: 10px;
     /* animation: up 0.5s ease-out; */
 }
@@ -67,12 +67,15 @@ body {
 }
 .column.previews .preview.iphone_x img.screenshot {
     height: 470px;
-    top: -491px;
+    top: -489px;
+    margin-left: 16px;    
 }
 .column.previews .preview.pixel img.screenshot {
-    width: 216px;
-    top: -469px;
+    width: 215px;
+    top: -470px;
+    margin-left: 8px;
 }
+
 @keyframes up {
     0% { transform: translateY(100vh); }
     40% { transform: translateY(100vh); }
@@ -84,8 +87,8 @@ body {
     max-width: 90vw;
     animation: rotation 15s linear infinite;
     margin-bottom: 15px;
+    margin-top: 50px;
     animation: over 0.5s ease-out;
-
 
 }
 .logo2 {
@@ -93,7 +96,6 @@ body {
     max-width: 90vw;
     margin-bottom: 15px;
     animation: over 0.5s ease-out;
-
 
 }
 
