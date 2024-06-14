@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /test/
+Disallow: /cgi-bin/
+Disallow: /scripts/
+Disallow: /old/
+
+
+Allow: /
+
+Disallow: /*?sessionid=
+Disallow: /*?sort=
+Disallow: /*?ref=
+
+
+Sitemap: https://info.watevent.com/sitemap.xml
+
+
+Crawl-delay: 10
+
+
